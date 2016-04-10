@@ -1,0 +1,28 @@
+#about .welcome-block h3 {
+    margin: 0 0 35px;
+}
+
+#about .welcome-block a {
+    color: white;
+}
+
+#about .recent-works img {
+    border: 3px solid #fff;
+    border-radius: 50%;
+    margin-right: 35px;
+    max-width: 100px;
+    max-height: 100px;
+    background-color: white;
+}
+
+#about .message-body {
+    margin-bottom: 15px;
+}
+
+.work-item {
+    font-size: 13px;
+}
+
+textarea.form-control {
+    height: 170px;
+}
