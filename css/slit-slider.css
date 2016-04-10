@@ -155,14 +155,14 @@
 }
 
 .bg-img-1 {
-    background-image: url(/img/slider/rise.jpg);
+    background-image: url(../img/slider/rise.JPG);
 }
         
 .bg-img-2 {
-	background-image: url(/img/slider/maker.jpg);
+	background-image: url(../img/slider/maker.JPG);
 }
 .bg-img-3 {
-	background-image: url(/img/slider/travel.jpg);
+	background-image: url(../img/slider/travel.JPG);
 }
 
 
