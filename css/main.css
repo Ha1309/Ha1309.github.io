@@ -737,7 +737,7 @@ ul.external li a:hover {
 }
 
 #testimonials .overlay {
-    background-color: rgba(0,32,96, 0.78);
+    background-color: rgba(0,32,96, 0.85);
     padding: 70px 0 40px;
 }
 
@@ -902,7 +902,8 @@ ul.external li a:hover {
 }
 
 #social .overlay {
-    background: url("../img/slide_bg.png") repeat scroll 0 0 transparent;
+/*    background: url("../img/slide_bg.png") repeat scroll 0 0 transparent;*/
+    background-color: rgba(56,56,56, 0.9);
     padding: 100px 0 120px;
 }
 

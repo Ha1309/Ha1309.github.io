@@ -26,3 +26,16 @@
 textarea.form-control {
     height: 170px;
 }
+
+#portfolio {
+    background-color: #F0F0F0;
+}
+
+.portfolio-item img {
+    padding: 1px;
+    background-color: rgba(54, 55, 50, 0.79);
+}
+
+.press-item a img {
+    height: 50px;
+}
