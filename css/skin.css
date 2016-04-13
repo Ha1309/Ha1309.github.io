@@ -1,3 +1,7 @@
+.navbar-inverse .navbar-nav > li > a {
+    margin-left: 10px;
+}
+
 #about .welcome-block h3 {
     margin: 0 0 35px;
 }
@@ -38,4 +42,9 @@ textarea.form-control {
 
 .press-item a img {
     height: 50px;
+}
+
+/*CV Subpage*/
+#summary {
+    color: black;
 }
