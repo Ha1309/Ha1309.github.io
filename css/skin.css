@@ -44,8 +44,13 @@ textarea.form-control {
     background-color: rgba(54, 55, 50, 0.79);
 }
 
+.press-item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .press-item a img {
-    height: 50px;
+    height: 40px;
 }
 
 /*CV Subpage*/

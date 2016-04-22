@@ -916,8 +916,10 @@ ul.external li a:hover {
 
 .social-button li {
     display: inline-block;
+    margin: 0 25px;
 }
 
+/*
 .social-button li:nth-child(2) {
     margin: 0 75px;
 }
@@ -925,6 +927,7 @@ ul.external li a:hover {
 .social-button li:nth-child(4) {
     margin: 0 75px;
 }
+*/
 
 .social-button li a {
     border: 2px solid #fff;
@@ -1420,9 +1423,11 @@ textarea.form-control {
     }
 
 /* social */
+/*
     .social-button li:nth-child(2) {
         margin: 0 50px;
     }
+*/
 
     .social-button li a {
         height: 90px;
