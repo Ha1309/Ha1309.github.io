@@ -1302,7 +1302,7 @@ textarea.form-control {
 
 /*portfolio*/
     .portfolio-item {
-        margin: 0 auto 10px;
+/*        margin: 0 auto 10px;*/
         font-size: 14px;
         width: 280px;
     }
