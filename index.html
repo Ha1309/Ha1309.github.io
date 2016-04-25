@@ -550,9 +550,9 @@
                         <h2>Contact</h2>
                         <p>Leave a Message</p>
                     </div>
-
-                    <div class="col-md-5 contact-form wow animated fadeInLeft">
-                        <form action="./php/contact.php" method="post">
+                    
+                    <form action="./php/contact.php" method="post">
+                        <div class="col-md-5 contact-form wow animated fadeInLeft">
                             <div class="input-field">
                                 <input type="text" name="cf-name" class="form-control" placeholder="Your Name...">
                             </div>
@@ -562,17 +562,14 @@
                             <div class="input-field">
                                 <input type="text" name="cf-subject" class="form-control" placeholder="Subject...">
                             </div>
-                        </form>
-                    </div>
-
-                    <div class="col-md-7 wow animated fadeInRight">
-                        <div class="input-field">
-                            <textarea name="cf-message" class="form-control" placeholder="Messages..."></textarea>
                         </div>
-                        <button type="submit" id="submit" class="btn btn-blue btn-effect pull-right" onclick="ga('send', 'event', 'Contact Message Send', 'Submit', 'All');">Send</button>
-
-                    </div>
-
+                        <div class="col-md-7 wow animated fadeInRight">
+                            <div class="input-field">
+                                <textarea name="cf-message" class="form-control" placeholder="Messages..."></textarea>
+                            </div>
+                            <button type="submit" id="submit" class="btn btn-blue btn-effect pull-right" onclick="ga('send', 'event', 'Contact Message Send', 'Submit', 'All');">Send</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </section>
