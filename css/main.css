@@ -71,6 +71,13 @@ main > section {
     color: #fff;
 }
 
+.btn-white {
+    background-color: rgba(255,255,255, 0.78);
+    box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.15) inset;
+    padding: 15px 55px;
+    color: rgba(0,32,96, 0.78);
+}
+
 .btn-border {
     border: 2px solid #fff;
     color: #fff;
