@@ -584,21 +584,21 @@
                         <p>Leave a Message</p>
                     </div>
 
-                    <form action="./php/contact.php" method="post">
+                    <form action="php/contact.php" method="post" novalidate>
                         <div class="col-md-5 contact-form wow animated fadeInLeft">
                             <div class="input-field">
-                                <input type="text" name="cf-name" class="form-control" placeholder="Your Name...">
+                                <input type="text" name="cf-name" class="form-control" placeholder="Your Name..." required>
                             </div>
                             <div class="input-field">
-                                <input type="email" name="cf-email" class="form-control" placeholder="Your Email...">
+                                <input type="email" name="cf-email" class="form-control" placeholder="Your Email..." required>
                             </div>
                             <div class="input-field">
-                                <input type="text" name="cf-subject" class="form-control" placeholder="Subject...">
+                                <input type="text" name="cf-subject" class="form-control" placeholder="Subject..." required>
                             </div>
                         </div>
                         <div class="col-md-7 wow animated fadeInRight">
                             <div class="input-field">
-                                <textarea name="cf-message" class="form-control" placeholder="Messages..."></textarea>
+                                <textarea name="cf-message" class="form-control" placeholder="Messages..." required></textarea>
                             </div>
                             <button type="submit" id="submit" class="btn btn-blue btn-effect pull-right" onclick="ga('send', 'event', 'Contact Message Send', 'Submit', 'All');">Send</button>
                         </div>
@@ -715,7 +715,7 @@
     <script src="./js/wow.min.js"></script>
     <!-- Custom Functions -->
     <script src="./js/main.js"></script>
-
+    
     <!-- Scripts section -->
     <script>
         function show(id) {
