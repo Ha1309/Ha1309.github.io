@@ -18,8 +18,8 @@
 /* =================================== */
 
 body {
-    background-color: #fff;
-    font-family: 'Open Sans', sans-serif;
+    background-color: #F0F0F0;
+    font-family: 'Nunito', sans-serif;
     line-height: 24px;
     font-size: 16px;
     color: #818181;
@@ -61,7 +61,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
     color: #252525;
 }
 main > section {
@@ -166,8 +166,11 @@ main > section {
 .sec-title {
     margin-bottom: 50px;
 }
-.sec-title.white {
-    color: #fff;
+.sec-title.blue {
+    color: #00006c;
+}
+.sec-title h1 {
+    color: #00006c;
 }
 .sec-title h2 {
     font-size: 36px;
@@ -176,8 +179,8 @@ main > section {
     position: relative;
     text-transform: uppercase;
 }
-.sec-title.white h2 {
-    color: #fff;
+.sec-title.blue h2 {
+    color: #00006c;
 }
 .sec-title h2:after {
     border-bottom: 1px solid #002060;
@@ -188,8 +191,11 @@ main > section {
     position: absolute;
     width: 115px;
 }
-.sec-title.white h2:after {
+.sec-title.blue h2:after {
     border-bottom: 1px solid #fff;
+}
+.sec-title h4 {
+    color: #00006c;
 }
 .parallax {
     background-attachment: fixed;
@@ -227,7 +233,7 @@ main > section {
     width: 60px;
     height: 25px;
     top: 35%;
-    border: 1px #2E2E2E solid;
+    border: 1px #fafafa solid;
     border-radius: 2px;
     position: relative;
     -webkit-animation: charge 5s linear infinite;
@@ -236,7 +242,7 @@ main > section {
     margin: 0 auto;
 }
 .battery:after {
-    background-color: #2E2E2E;
+    background-color: #fafafa;
     border-radius: 0 1px 1px 0;
     content: "";
     height: 10px;
@@ -247,26 +253,26 @@ main > section {
 }
 @-webkit-keyframes charge {
     0% {
-        box-shadow: inset 0px 0px 0px #2E2E2E;
+        box-shadow: inset 0px 0px 0px #fafafa;
     }
     100% {
-        box-shadow: inset 60px 0px 0px #2E2E2E;
+        box-shadow: inset 60px 0px 0px #fafafa;
     }
 }
 @-moz-keyframes charge {
     0% {
-        box-shadow: inset 0px 0px 0px #2E2E2E;
+        box-shadow: inset 0px 0px 0px #fafafa;
     }
     100% {
-        box-shadow: inset 60px 0px 0px #2E2E2E;
+        box-shadow: inset 60px 0px 0px #fafafa;
     }
 }
 @keyframes charge {
     0% {
-        box-shadow: inset 0px 0px 0px #2E2E2E;
+        box-shadow: inset 0px 0px 0px #fafafa;
     }
     100% {
-        box-shadow: inset 60px 0px 0px #2E2E2E;
+        box-shadow: inset 60px 0px 0px #fafafa;
     }
 }
 
@@ -496,15 +502,15 @@ h1.navbar-brand {
 ==================================================================*/
 
 .article-links {
-    color: white;
+    color: #00006c;
 }
 
 .article-links h3 {
-    color: white;
+    color: #00006c;
 }
 
 .article-links a {
-    color: white;
+    color: #00006c;
 }
 
 .article-links a:hover {
@@ -914,7 +920,7 @@ textarea.form-control {
     background-color: #0A85BB;
 }
 #submit.btn-effect:after {
-    background: #2E2E2E;
+    background: #fafafa;
 }
 .contact-details h3 {
     border-bottom: 1px solid #008ecc;
@@ -951,7 +957,7 @@ textarea.form-control {
 ==============================================================*/
 
 #footer {
-    background-color: #2E2E2E;
+    background-color: #fafafa;
     padding: 10px 0;
     color: #fff;
 }
@@ -1026,7 +1032,7 @@ textarea.form-control {
     margin: 0 10px;
 }
 .footer-social ul li a {
-    color: #7f7f7f;
+    color: #00006c;
     display: block;
     -webkit-transition: all 0.2s ease 0s;
     -moz-transition: all 0.2s ease 0s;
@@ -1035,7 +1041,7 @@ textarea.form-control {
     transition: all 0.2s ease 0s;
 }
 .footer-social ul li a:hover {
-    color: white;
+    color: #7f7f7f; 
 }
 .footer-content > p {
     color: #ababab;
